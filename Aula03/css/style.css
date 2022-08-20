@@ -1,0 +1,30 @@
+body {
+    background-color: #232425;
+    color: aliceblue;
+    margin: 10px;
+}
+
+.tx {
+    border: 1px solid #ffffff;
+    height: 26px;
+    padding-left: 5px;
+    color: #000000;
+    width: 100%;
+    margin-top: 3px;
+
+}
+
+.bt {
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 6px 20px;
+
+}
+
+.centro {
+    margin: 0 auto;
+    display: table;
+    width: 70%;
+    max-width: 70%;
+}
