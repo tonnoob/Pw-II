@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(44, 45, 46);
+}
+
+img{
+    width:150px;
+    height: 100px;
+}
+
+.coluna {
+    float: left;
+    margin: 10px;
+    
+}
