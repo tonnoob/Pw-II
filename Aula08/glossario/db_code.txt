@@ -1,0 +1,41 @@
+bdGlossario
+
+create table tbPalavra(
+ idPalavra int primary key auto_increment,
+ tituloPalavra varchar(50),
+ descricaoPalavra varchar(500),
+ caminhoImagem varchar(500),
+ link varchar(500)
+);
+
+insert into tbPalavra values(
+	null,
+	'USB',
+	'descr usb',
+	'caminho img usb',
+	'link usb'
+);
+
+insert into tbPalavra values(
+	null,
+	'VGA',
+	'descr VGA',
+	'caminho img VGA',
+	'link VGA'
+);
+
+insert into tbPalavra values(
+	null,
+	'Vídeo',
+	'descr vídeo',
+	'caminho img vídeo',
+	'link vídeo'
+);
+
+insert into tbPalavra values(
+	null,
+	'Host',
+	'descr Host',
+	'caminho img host',
+	'link host'
+);

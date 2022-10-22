@@ -1,0 +1,5 @@
+<?php
+
+$usu = $POS
+$sen = 
+?>
