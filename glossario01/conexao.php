@@ -1,6 +1,6 @@
 <?php
 	$servidor="localhost";
-	$banco="bdGlossario";
+	$banco="bdglossario";
 	$usuario="root";
 	$senha="";
 

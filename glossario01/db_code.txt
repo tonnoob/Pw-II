@@ -1,0 +1,50 @@
+bdGlossario
+
+create table tbPalavra(
+ idPalavra int primary key auto_increment,
+ tituloPalavra varchar(50),
+ descricaoPalavra varchar(500),
+ caminhoImagem varchar(500),
+ link varchar(500)
+);
+
+insert into tbPalavra values(
+	null,
+	'USB',
+	'descr usb',
+	'images/usb.jpg',
+	'link usb'
+);
+
+insert into tbPalavra values(
+	null,
+	'VGA',
+	'descr VGA',
+	'images/vga.webp',
+	'link VGA'
+);
+
+insert into tbPalavra values(
+	null,
+	'Vídeo',
+	'descr vídeo',
+	'images/video.jpg',
+	'link vídeo'
+);
+
+insert into tbPalavra values(
+	null,
+	'Host',
+	'descr Host',
+	'images/host.webp',
+	'link host'
+);
+
+create table tbUsuario(
+	idUsuario int PRIMARY key AUTO_INCREMENT,
+    usuario varchar(40),
+    senha varchar(40)
+);
+
+insert into tbUsuario values (null, 'admin','admin');
+insert into tbUsuario values (null, 'maria','1234');

@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
 </head>
 <body>
 
@@ -37,11 +40,11 @@
         </div>
     </form>
 </section>
-    
+  
 </body>
 </html>
 
-<section>
+
 <?php
     include("conexao.php");
 
@@ -54,8 +57,7 @@
         echo utf8_encode($row[2]);
         echo utf8_encode($row[3]);
         echo utf8_encode($row[4]);
-        echo "<a href='#'> Excluir </a>";
+        echo "<a href='excluir-palavra.php?id=". $row['idPalavra'] . "'> Excluir </a>";
         echo "<br />";        
     }	
 ?>
-</section>
