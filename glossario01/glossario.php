@@ -1,5 +1,7 @@
 <section>
 
+<?php include ("estrutura/cabecalho.php");?>
+
     <a href="palavra-letra.php?letra=A"> A </a>
     <a href="palavra-letra.php?letra=B"> B </a>
     <a href="palavra-letra.php?letra=C"> C </a>
@@ -27,6 +29,7 @@
     <a href="palavra-letra.php?letra=Y"> Y </a>
     <a href="palavra-letra.php?letra=Z"> Z </a>
 
+<?php include ("estrutura/rodape.php");?>
 
 </section>
 
