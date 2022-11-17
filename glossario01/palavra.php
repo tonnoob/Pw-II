@@ -100,10 +100,10 @@
     
     while($row = $stmt ->fetch(PDO::FETCH_BOTH)){    
         echo "$row[0] ";
-        echo utf8_encode($row[1]);        
-        echo utf8_encode($row[2]);
-        echo utf8_encode($row[3]);
-        echo utf8_encode($row[4]);
+        echo ($row[1]);        
+        echo ($row[2]);
+        echo ($row[3]);
+        echo ($row[4]);
         echo "<a href='excluir-palavra.php?id=". $row['idPalavra'] . "'> Excluir </a>";
         echo "<br />";        
     }	
